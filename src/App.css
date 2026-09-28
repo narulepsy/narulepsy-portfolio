@@ -102,12 +102,13 @@ button {
   height: auto;
   padding: 0px;
   align-self: center;
+  justify-self: center;
 }
 
 div.gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   justify-self: center;
 }
 
