@@ -47,15 +47,15 @@ function App() {
           >
                   <div className={"gallery"}>
                       <div className={"gallery-item"}>
-                          <img src={"images/headshot.jpg"}/>
+                          <img src={"images/headshot.jpg"} alt={"FULL-RENDER-EXAMPLE"}/>
                           <div className={"desc"}><h3>$50 HEADSHOT</h3></div>
                       </div>
                       <div className={"gallery-item"}>
-                          <img src={"images/NARULEPSY_a5_tenebris.jpg"}/>
+                          <img src={"images/NARULEPSY_a5_tenebris.jpg"} alt={"FULL-RENDER-EXAMPLE"}/>
                           <div className={"desc"}><h3>$70 HALF-BODY</h3></div>
                       </div>
                       <div className={"gallery-item"}>
-                          <img src={"images/NARULEPSY_a5_themis.jpg"}/>
+                          <img src={"images/NARULEPSY_a5_themis.jpg"} alt={"FULL-RENDER-EXAMPLE"}/>
                           <div className={"desc"}><h3>$80 FULL-BODY</h3></div>
                       </div>
                   </div>
@@ -66,15 +66,15 @@ function App() {
               >
                   <div className={"gallery"}>
                       <div className={"gallery-item"}>
-                          <img src={"images/kage_1.jpg"}/>
+                          <img src={"images/kage_1.jpg"} alt={"SKETCH-EXAMPLE"}/>
                           <div className={"desc"}><h3>$10 HEADSHOT</h3></div>
                       </div>
                       <div className={"gallery-item"}>
-                          <img src={"images/venom president.jpg"}/>
+                          <img src={"images/venom president.jpg"} alt={"SKETCH-EXAMPLE"}/>
                           <div className={"desc"}><h3>$25 HALF-BODY</h3></div>
                       </div>
                       <div className={"gallery-item"}>
-                          <img src={"images/galahad wife.jpg"}/>
+                          <img src={"images/galahad wife.jpg"} alt={"SKETCH-EXAMPLE"}/>
                           <div className={"desc"}><h3>$35 FULL-BODY</h3></div>
                       </div>
                   </div>
@@ -85,38 +85,38 @@ function App() {
           >
                   <div className={"gallery"}>
                       <div className={"gallery-item-small-square"}>
-                          <img src={"images/emoji test.jpg"}/>
+                          <img src={"images/emoji test.jpg"} alt={"EMOTE"}/>
                       </div>
                       <div className={"gallery-item-small-square"}>
-                          <img src={"images/emoji test.jpg"}/>
+                          <img src={"images/emoji test.jpg"} alt={"EMOTE"}/>
                       </div>
                       <div className={"gallery-item-small-square"}>
-                          <img src={"images/emoji test.jpg"}/>
+                          <img src={"images/emoji test.jpg"} alt={"EMOTE"}/>
                       </div>
                       <div className={"gallery-item-small-square"}>
-                          <img src={"images/emoji test.jpg"}/>
+                          <img src={"images/emoji test.jpg"} alt={"EMOTE"}/>
                       </div>
                       <div className={"gallery-item-small-square"}>
-                          <img src={"images/emoji test.jpg"}/>
+                          <img src={"images/emoji test.jpg"} alt={"EMOTE"}/>
                       </div>
                   </div>
               
                   <h3>$10 - ONE EMOTE</h3>
                   <div className={"gallery"}>
                       <div className={"gallery-item-small-square"}>
-                          <img src={"images/emoji test.jpg"}/>
+                          <img src={"images/emoji test.jpg"} alt={"EMOTE"}/>
                       </div>
                       <div className={"gallery-item-small-square"}>
-                          <img src={"images/emoji test.jpg"}/>
+                          <img src={"images/emoji test.jpg"} alt={"EMOTE"}/>
                       </div>
                       <div className={"gallery-item-small-square"}>
-                          <img src={"images/emoji test.jpg"}/>
+                          <img src={"images/emoji test.jpg"} alt={"EMOTE"}/>
                       </div>
                       <div className={"gallery-item-small-square"}>
-                          <img src={"images/emoji test.jpg"}/>
+                          <img src={"images/emoji test.jpg"} alt={"EMOTE"}/>
                       </div>
                       <div className={"gallery-item-small-square"}>
-                          <img src={"images/emoji test.jpg"}/>
+                          <img src={"images/emoji test.jpg"} alt={"EMOTE"}/>
                       </div>
                   </div>
                   <h3>$20 - ONE STICKER</h3>
