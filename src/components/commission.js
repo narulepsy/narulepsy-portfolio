@@ -92,19 +92,19 @@ const Commission = ({currentState}) => {
                 <h3>$10 - ONE EMOTE</h3>
                 <div className={"gallery"}>
                     <div className={"gallery-item-small-square"}>
-                        <img src={"images/emoji test.jpg"} alt={"EMOTE"}/>
+                        <img src={"images/tenebris_standing.png"} alt={"EMOTE"}/>
                     </div>
                     <div className={"gallery-item-small-square"}>
-                        <img src={"images/emoji test.jpg"} alt={"EMOTE"}/>
+                        <img src={"images/themis_standing.png"} alt={"EMOTE"}/>
                     </div>
                     <div className={"gallery-item-small-square"}>
-                        <img src={"images/emoji test.jpg"} alt={"EMOTE"}/>
+                        <img src={"images/tenebris_and_themis_standing.png"} alt={"EMOTE"}/>
                     </div>
                     <div className={"gallery-item-small-square"}>
-                        <img src={"images/emoji test.jpg"} alt={"EMOTE"}/>
+                        <img src={"images/galahad_drink.png"} alt={"EMOTE"}/>
                     </div>
                     <div className={"gallery-item-small-square"}>
-                        <img src={"images/emoji test.jpg"} alt={"EMOTE"}/>
+                        <img src={"images/atlas_king_standing.png"} alt={"EMOTE"}/>
                     </div>
                 </div>
                 <h3>$20 - ONE STICKER</h3>
