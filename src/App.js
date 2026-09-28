@@ -16,7 +16,7 @@ function App() {
                   <button onClick={() => {}}>PORTFOLIO</button>
                   <button onClick={() => {}}>TERMS & CONDITIONS</button>
               </div>
-              <img src={"./images/NARULEPSY_calling_card_4.jpg"} className={"banner-img"}/>
+              <img src={"./images/NARULEPSY_calling_card_4.jpg"} className={"banner-img"} alt={"BANNER"}/>
           </div>
           <div id={"container"} className={"container"}>
               <h2>ABOUT</h2>
