@@ -11,19 +11,24 @@ function App() {
     const [currentState, setCurrentState] = useState("commission")
     return (
       <div>
-          <div id={"container-top-nav"} className={"container banner"}>
-              <h1><mark>NARULEPSY'S CORNER</mark></h1>
-              <div id={"container-buttons"} className={"banner-buttons"}>
-                  <button 
-                      className={currentState == "commission" ? "active" : ""}
+          <nav id={"container-buttons"} className={"banner-buttons"}>
+              <div className={"banner-name-container"}>
+                  <h1>Narulepsy</h1>
+              </div>
+              <div className={"banner-buttons-container"}>
+                  <button
+                      className={currentState === "commission" ? "active" : ""}
                       onClick={() => setCurrentState("commission")}>COMMISSION</button>
                   <button
-                      className={currentState == "portfolio" ? "active" : ""}
+                      className={currentState === "portfolio" ? "active" : ""}
                       onClick={() => setCurrentState("portfolio")}>PORTFOLIO</button>
-                  <button 
-                      className={currentState == "termsandconditions" ? "active" : ""}
+                  <button
+                      className={currentState === "termsandconditions" ? "active" : ""}
                       onClick={() => setCurrentState("termsandconditions")}>TERMS & CONDITIONS</button>
               </div>
+          </nav>
+          <div id={"container-top-nav"} className={"container banner"}>
+              <h1><mark>BANNER</mark></h1>
               <img src={"./images/NARULEPSY_calling_card_4.jpg"} className={"banner-img"} alt={"BANNER"}/>
               <div id={"container-buttons"} className={"social-buttons"}>
                   <>

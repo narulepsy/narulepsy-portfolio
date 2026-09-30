@@ -4,6 +4,10 @@
   --color-naru-dark-border: #3b3b3b;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Hubot Sans Variable', sans-serif;
 }
@@ -14,11 +18,13 @@ mark {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: clamp(12px, 3vw, 1.25rem);
   font-weight: 600;
   font-style: italic;
   letter-spacing: 4px;
   color: var(--color-naru-red);
+  margin: 0 12px 0px 0px;
+  padding: 0;
 }
 
 .museum-img {
@@ -35,6 +41,7 @@ h1 {
 }
 
 .banner-img {
+  margin-top: 4px;
   width: 100%;
   max-width: 56.25rem;
   max-height: 100%;
@@ -42,25 +49,25 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: 600;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: 600;
   text-align: center;
 }
 
 p {
-  font-size: 1.25rem;
-  margin-left: 4rem;
+  font-size: 1.05rem;
+  margin-left: 2.5rem;
   font-weight: 400;
 }
 
 li {
-  font-size: 1.25rem;
-  margin-left: 4rem;
+  font-size: 1.05rem;
+  margin-left: 2rem;
   font-weight: 400;
 }
 
@@ -73,7 +80,7 @@ li {
 }
 
 .banner {
-  margin-top: 12rem;
+  margin-top: 6rem;
 }
 
 button.active  {
@@ -86,19 +93,49 @@ button.active  {
 
 button {
   border: 2px solid var(--color-naru-dark-border);
-  padding: 0.5rem 0.5rem;
   margin-top: 0rem;
   background-color: var(--color-naru-white);
-  font-weight: 400;
-  flex: 1;      /* Forces all buttons to grow equally and fill the width */
-  height: 100%; /* Stretches them to fill the height */
+  font-weight: 600;
+  flex: 1;
+  height: clamp(40px, 2vw, 55px);
+  font-size: clamp(10px, 2vw, 1rem);
+  align-items: center;
+  justify-content: center;
 }
 
 .banner-buttons {
     display: flex;
-    width: 100%;
-  height: 50px;
-  font-size: clamp(12px, 2vw, 1rem);
+  justify-content: space-between;
+    height: 50px;
+    position: sticky;
+    top: 0;
+  align-items: center;
+  gap: 8rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  background-color: var(--color-naru-white);
+  z-index: 1000;
+}
+
+.banner-buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  max-width: 60%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-name-container {
+  display: flex;
+  justify-content: center;
+  width: 10%; 
+}
+
+.banner-buttons button{
+  border: none;
+  height: 100%;
 }
 
 .container-buttons {
@@ -109,16 +146,18 @@ button {
 }
 
 .social-buttons {
-  display: flex;
-  width: 100%;
-  justify-self: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: center; 
   margin: 1rem;
+  max-width: 90%;
 }
 
 .social-buttons button{
   display: inline-flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   border: none;
   gap: 0.9rem;
   color: var(--color-naru-dark-border);
@@ -155,7 +194,7 @@ div.gallery .gallery-item img {
   width: 100%;
   height: 100%;
   max-width: 100%;
-  max-height: 421px;
+  max-height: 21rem;
   object-fit: cover;
   box-shadow: 8px 12px 12px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
@@ -170,8 +209,8 @@ div.gallery img:hover {
 }
 
 div.gallery .gallery-item-small-square img {
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 5rem;
+  max-height: 5rem;
   width: 100%;
   height: 100%;
   object-fit: cover;
