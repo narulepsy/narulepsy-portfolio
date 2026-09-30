@@ -35,7 +35,7 @@ function App() {
               <div
                   style={{display: isMobileWidth ? "block" : "none"}}
               >
-                  <div className={"banner-buttons"}>
+                  <div className={"home-banner-buttons"}>
                       <button
                           className={currentState === "commission" ? "active" : ""}
                           onClick={() => setCurrentState("commission")}>COMMISSION</button>
