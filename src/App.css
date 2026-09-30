@@ -201,7 +201,7 @@ div.gallery {
   flex-wrap: wrap;
   justify-content: center;
   justify-self: center;
-  gap: 1.25rem;
+  gap: 12px;
 }
 
 div.gallery img {
@@ -215,7 +215,8 @@ div.gallery .gallery-item img {
   object-fit: cover;
   box-shadow: 8px 12px 12px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
-  margin: 1rem;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
 }
 
 div.gallery img:hover {
@@ -232,9 +233,10 @@ div.gallery .gallery-item-small-square img {
   height: 100%;
   object-fit: cover;
   box-shadow-blur: 24px;
-  box-shadow: 8px 12px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 8px 12px 12px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
-  margin: 1em 1em;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
 }
 
 div.gallery desc {
