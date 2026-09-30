@@ -33,7 +33,7 @@ function App() {
           </nav>
           <div id={"container-top-nav"} className={"container banner"}>
               <div
-                  style={{display: !isMobileWidth ? "block" : "none"}}
+                  style={{display: isMobileWidth ? "block" : "none"}}
               >
                   <div className={"banner-buttons"}>
                       <button
