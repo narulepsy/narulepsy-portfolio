@@ -92,6 +92,7 @@ button.active  {
 }
 
 button {
+  display: inline-flex;
   border: 2px solid var(--color-naru-dark-border);
   margin-top: 0rem;
   background-color: var(--color-naru-white);
@@ -100,8 +101,8 @@ button {
   flex: 1;
   height: clamp(40px, 2vw, 55px);
   font-size: clamp(10px, 2vw, 1rem);
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .banner-buttons {
@@ -140,9 +141,11 @@ button {
 }
 
 .container-buttons {
-  display: flex;
+  display: flex;             
+  flex-wrap: wrap;
   width: 80%;
   justify-self: center;
+  max-width: 80%;
   font-size: clamp(12px, 2vw, 1rem);
 }
 
