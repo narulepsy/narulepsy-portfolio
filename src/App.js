@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import "./App.css"
@@ -46,6 +47,7 @@ function App() {
           <Commission currentState={currentState}/>
           <Portfolio currentState={currentState}/>
           <TermsAndConditions currentState={currentState}/>
+          <Analytics />
       </div>
   );
 }
