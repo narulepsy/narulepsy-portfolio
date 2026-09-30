@@ -67,7 +67,10 @@ function App() {
                   </>
               </div>
           </div>
-          <Commission currentState={currentState}/>
+          <Commission
+              currentState = {currentState} 
+              setCurrentState = {setCurrentState}
+          />
           <Portfolio currentState={currentState}/>
           <TermsAndConditions currentState={currentState}/>
           <Analytics />

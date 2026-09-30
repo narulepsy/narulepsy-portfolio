@@ -1,5 +1,6 @@
 ﻿import {useState} from "react";
-const Commission = ({currentState}) => {
+import CommissionGridInfo from "./commission_grid_info";
+const Commission = ({currentState, setCurrentState}) => {
     const [activeTab, setActiveTab] = useState('full-render');
 
     return (
@@ -47,6 +48,13 @@ const Commission = ({currentState}) => {
                         <div className={"desc"}><h3>$80 FULL-BODY</h3></div>
                     </div>
                 </div>
+                <CommissionGridInfo 
+                    renderStyle={"Full Render"} 
+                    background={"Simple"} 
+                    priceRange={"$50  -  $80 USD"} 
+                    turnaroundTime={"1 - 2 weeks based on complexity"}
+                    setCurrentState={setCurrentState}
+                />
             </div>
             <div className={"gallery-container"}
                  id={"sketch-comms"}
@@ -66,6 +74,13 @@ const Commission = ({currentState}) => {
                         <div className={"desc"}><h3>$35 FULL-BODY</h3></div>
                     </div>
                 </div>
+                <CommissionGridInfo 
+                    renderStyle={"Sketch"} 
+                    background={"No Background"} 
+                    priceRange={"$10  -  $35 USD"} 
+                    turnaroundTime={"Less than 1 week"}
+                    setCurrentState={setCurrentState}
+                />
             </div>
             <div className={"gallery-container"}
                  id={"sketch-comms"}
