@@ -36,22 +36,22 @@ const Commission = ({currentState, setCurrentState}) => {
             >
                 <div className={"gallery"}>
                     <div className={"gallery-item"}>
-                        <img src={"images/headshot.jpg"} alt={"FULL-RENDER-EXAMPLE"}/>
-                        <div className={"desc"}><h3>$50 HEADSHOT</h3></div>
+                        <img src={"images/atlas king  headshot.jpg"} alt={"FULL-RENDER-EXAMPLE"}/>
+                        <div className={"desc"}><h3>$45 HEADSHOT</h3></div>
                     </div>
                     <div className={"gallery-item"}>
-                        <img src={"images/NARULEPSY_a5_tenebris.jpg"} alt={"FULL-RENDER-EXAMPLE"}/>
+                        <img src={"images/narulepsy halfbody patch comm1.jpg"} alt={"FULL-RENDER-EXAMPLE"}/>
                         <div className={"desc"}><h3>$70 HALF-BODY</h3></div>
                     </div>
                     <div className={"gallery-item"}>
-                        <img src={"images/NARULEPSY_a5_themis.jpg"} alt={"FULL-RENDER-EXAMPLE"}/>
+                        <img src={"images/bull.jpg"} alt={"FULL-RENDER-EXAMPLE"}/>
                         <div className={"desc"}><h3>$80 FULL-BODY</h3></div>
                     </div>
                 </div>
                 <CommissionGridInfo 
                     renderStyle={"Full Render"} 
                     background={"Simple"} 
-                    priceRange={"$50  -  $80 USD"} 
+                    priceRange={"45  -  $80 USD"} 
                     turnaroundTime={"1 - 2 weeks based on complexity"}
                     setCurrentState={setCurrentState}
                 />
