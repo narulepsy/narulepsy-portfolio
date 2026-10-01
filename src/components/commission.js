@@ -51,7 +51,7 @@ const Commission = ({currentState, setCurrentState}) => {
                 <CommissionGridInfo 
                     renderStyle={"Full Render"} 
                     background={"Simple"} 
-                    priceRange={"45  -  $80 USD"} 
+                    priceRange={"$45  -  $80 USD"} 
                     turnaroundTime={"1 - 2 weeks based on complexity"}
                     setCurrentState={setCurrentState}
                 />
